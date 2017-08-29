@@ -1,0 +1,15 @@
+{
+  "name":               "ws",
+  "main":               "./anki-client",
+  "description":        "CloudFoundry ws example",
+  
+  "version":            "0.1.0",
+   "dependencies":
+    {
+      "ws":          "*",
+      "body-parser": "*",
+      "express":"*",
+      "cfenv":"*"
+    }
+  }
+

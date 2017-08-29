@@ -1,0 +1,5 @@
+applications:
+- name:    anki-client
+  memory:  128M
+  command: node client.js
+  buildpack: nodejs_buildpack
